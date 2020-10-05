@@ -112,7 +112,7 @@ main{
 export default {
   data () {
     return {
-      api_key: 'c2b6ef3a6e0b12fdc46905df6437282d',
+      api_key: '0e4566ce184e8e0f81917cbe5a299f4a',
       url_base: 'http://api.openweathermap.org/data/2.5/',
       query: '',
       weather: {}
