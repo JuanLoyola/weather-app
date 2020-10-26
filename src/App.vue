@@ -36,13 +36,14 @@ body{
   background-image: url('./assets/winter.jpg');
   background-size: cover;
   background-position: bottom;
+  background-position-y: 45%;
   transition: 0.4s;
 }
 #app.warm{
   background-image: url('./assets/summer.jpg');
 }
 main{
-  min-height: 100vh;
+  height: 100vh;
   padding: 25px;
   background-image: linear-gradient(to bottom, rgba (0,0,0, 0.25), rbba (0,0,0, 0.75));
 }
@@ -106,6 +107,20 @@ main{
   font-style: italic;
   text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
 }
+
+@media screen and (min-width: 320px) and (max-width:1034px){
+  main{
+    min-height: 100vh;
+    padding: 25px;
+    background-image: linear-gradient(to bottom, rgba (0,0,0, 0.25), rbba (0,0,0, 0.75));
+  }
+  #app{
+    background-image: url('./assets/winter.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4s;
+  }
+}
 </style>
 
 <script>
@@ -113,7 +128,7 @@ export default {
   data () {
     return {
       api_key: '0e4566ce184e8e0f81917cbe5a299f4a',
-      url_base: 'http://api.openweathermap.org/data/2.5/',
+      url_base: 'https://api.openweathermap.org/data/2.5/',
       query: '',
       weather: {}
     }
