@@ -114,12 +114,6 @@ main{
     padding: 25px;
     background-image: linear-gradient(to bottom, rgba (0,0,0, 0.25), rbba (0,0,0, 0.75));
   }
-  #app{
-    background-image: url('./assets/winter.jpg');
-    background-size: cover;
-    background-position: bottom;
-    transition: 0.4s;
-  }
 }
 </style>
 
