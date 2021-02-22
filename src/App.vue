@@ -121,7 +121,7 @@ main{
 export default {
   data () {
     return {
-      api_key: '0e4566ce184e8e0f81917cbe5a299f4a',
+      api_key: 'ApiKey',
       url_base: 'https://api.openweathermap.org/data/2.5/',
       query: '',
       weather: {}
