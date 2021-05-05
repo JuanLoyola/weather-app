@@ -7,6 +7,7 @@ This repository is super old but I want to share it
 * CSS
 * Javascript
 * Vue.js
+* Rest API
 ```
 
 # Desktop & Mobile preview:
